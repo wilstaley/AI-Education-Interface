@@ -12,7 +12,11 @@
             "matches":[
                 "<all_urls>"
             ],
-            "js": ["./src/content.js"]
+            "js": [
+                "./libraries/popper.min.js",
+                "./libraries/index.all.min.js",
+                "./src/content.js"
+            ]
         }
     ],
     "background": {
@@ -22,5 +26,8 @@
         "default_icon": "./public/images/logo.png",
         "default_title": "Learn how AI is used on this site!",
         "default_popup": "./public/popup.html"
-    }
+    },
+    "web_accessible_resources": [
+        "public/images/*"
+    ]
   }
