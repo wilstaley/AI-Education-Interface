@@ -4,6 +4,7 @@
     "description": "Educate people about AI online!",
     "manifest_version": 2,
     "permissions": [
+        "storage",
         "tabs",
         "notifications"
     ],

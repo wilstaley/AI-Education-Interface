@@ -20,7 +20,11 @@ const notificationOptions = {
     iconUrl: "../public/images/logo.png"
 };
 
-//get the current tab's url
+
+
+/* This code is for displaying notifications */
+
+// get the current tab's url
 chrome.tabs.query(queryInfo, function(tabs){
     let prevPathArray = tabs[0].url.split('/');
     let prev_url = prevPathArray[0] + '//' + prevPathArray[2];
