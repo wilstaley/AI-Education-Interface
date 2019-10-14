@@ -13,6 +13,7 @@
             "matches":[
                 "<all_urls>"
             ],
+            "css": ["./public/styles/tooltip.css"],
             "js": [
                 "./libraries/popper.min.js",
                 "./libraries/index.all.min.js",

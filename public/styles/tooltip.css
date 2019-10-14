@@ -1,0 +1,41 @@
+/*Custom Tooltip Theme - aiedu*/
+.tippy-tooltip.aiedu-theme {
+  background-color: #aed795;
+  color: #23646c;
+}
+.tippy-tooltip.aiedu-theme[x-placement^='top'] .tippy-arrow {
+  border-top-color: #aed795;
+}
+.tippy-tooltip.aiedu-theme[x-placement^='bottom'] .tippy-arrow {
+  border-bottom-color: #aed795;
+}
+.tippy-tooltip.aiedu-theme[x-placement^='left'] .tippy-arrow {
+  border-left-color: #aed795;
+}
+.tippy-tooltip.aiedu-theme[x-placement^='right'] .tippy-arrow {
+  border-right-color: #aed795;
+}
+
+/*Content of tooltip*/
+#aiedu-ttwrapper{
+    width: 100%;
+    height: 100%;
+    background: white;
+    margin: 0;
+}
+#aiedu-ttheader{
+    background: #aed795;
+    padding: 20px;
+}
+#aiedu-ttheader h1{
+    font-size: 30px;
+}
+
+#aiedu-ttmsg{
+    background: white;
+    padding: 10px;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: -2px;
+    border-radius: 0px 0px 3px 3px;
+}
