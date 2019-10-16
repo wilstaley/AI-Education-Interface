@@ -1,7 +1,8 @@
 /*Custom Tooltip Theme - aiedu*/
 .tippy-tooltip.aiedu-theme {
   background-color: #aed795;
-  color: #23646c;
+  color: black;
+  box-shadow: 0px 0px 5px black;
 }
 .tippy-tooltip.aiedu-theme[x-placement^='top'] .tippy-arrow {
   border-top-color: #aed795;
@@ -30,12 +31,13 @@
 #aiedu-ttheader h1{
     font-size: 30px;
 }
-
 #aiedu-ttmsg{
+    font-size: 18px;
     background: white;
     padding: 10px;
     margin-right: -5px;
     margin-left: -5px;
     margin-bottom: -2px;
     border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 0px 4px black inset;
 }
