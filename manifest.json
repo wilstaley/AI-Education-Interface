@@ -17,6 +17,7 @@
             "js": [
                 "./libraries/popper.min.js",
                 "./libraries/index.all.min.js",
+                "./src/fb.js",
                 "./src/content.js"
             ]
         }

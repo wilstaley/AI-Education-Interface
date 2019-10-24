@@ -13,7 +13,7 @@ function getTooltipContent(header, site, aitype, reason) {
                 <p>
                     ${site} is using ${aitype} to ${reason}.
                 </p>
-                <button>learn more!</button>
+                <a href="http://wilstaley.com/AI-Education-Website" id="btn" target="_blank">learn more!</a>
             </div>
         </div>
     `;
@@ -23,37 +23,16 @@ function getTooltipContent(header, site, aitype, reason) {
 chrome.runtime.onMessage.addListener(receiver);
 
 function enableTooltips(){
-    //Facebook tooltips
-    tippy('#pagelet_marketplace_recently_viewed_rhc', {
-        content: getTooltipContent(
-            'Targeted Ads', 
-            'Facebook', 
-            'deep learning', 
-            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook'
-        ),
-        placement: 'left',
-        arrow: true,
-        animation: 'shift-away',
-        duration: 500,
-        theme: 'aiedu',
-        interactive: true
-    });
-    
-    tippy('#pagelet_ego_pane', {
-        content: getTooltipContent(
-            'Targeted Ads',
-            'Facebook',
-            'deep learning',
-            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook'
-        ),
-        placement: 'left',
-        arrow: true,
-        animation: 'shift-away',
-        duration: 500,
-        interactive: true,
-        theme: 'aiedu',
-        interactive: true
-    });
+    const site = location.toString().split('/')[2].split('.')[1];
+    switch(site){
+        case 'facebook':
+            enableFbTooltips();
+            break;
+        default:
+            console.log('not a site with AI')
+            break;
+    }
+    // if(location.toString().includes('facebook')) enableFbTooltips();
 }
 
 function receiver(request, sender, sendResponse) {

@@ -2,7 +2,7 @@ console.log('background script running 🏃‍');
 
 const sitesWithAI = [
     'https://www.facebook.com',
-    'https://www.travelocity.com',
+    'https://www.tripadvisor.com',
     'https://www.amazon.com'
 ];
 
@@ -15,9 +15,9 @@ const queryInfo = {
 //options for the notification
 const notificationOptions = {
     type: "basic",
-    title: "AI Detected!",
-    message: "AI was detected on this site!  Check the AI extension to learn more.",
-    iconUrl: "../public/images/logo.png"
+    title: "AI Education",
+    message: "AI was detected on this site!",
+    iconUrl: "../public/images/iconChrome.png"
 };
 
 
