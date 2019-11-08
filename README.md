@@ -21,8 +21,8 @@ Option 2: From Source
 #### Screenshots
 | Site | Screenshot     |
 | :------------- | :------------- |
-| Amazon       | <img src="public/images/screenshot2.png" alt="logo" width="400" style="display:block;margin-right:auto;"/>       |
-| Facebook | <img src="public/images/screenshot1.png" alt="logo" width="200" style="display:block;margin-right:auto; margin-top: 5px;"/> |
+| Amazon       | <img src="public/images/screenshot2.png" alt="logo" width="200" style="display:block;margin-right:auto;"/>       |
+| Facebook | <img src="public/images/screenshot1.png" alt="logo" width="400" style="display:block;margin-right:auto; margin-top: 5px;"/> |
 
 
 
