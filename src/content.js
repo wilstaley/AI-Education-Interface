@@ -11,7 +11,7 @@ function getTooltipContent(header, site, aitype, reason) {
             </div>
             <div id='aiedu-ttmsg' style="font-family:'Barlow';">
                 <p>
-                    ${site} is using ${aitype} to ${reason}.
+                    ${site} is likely using ${aitype} to ${reason}.
                 </p>
                 <a href="http://wilstaley.com/AI-Education-Website" id="btn" target="_blank">learn more!</a>
             </div>
@@ -27,6 +27,9 @@ function enableTooltips(){
     switch(site){
         case 'facebook':
             enableFbTooltips();
+            break;
+        case 'amazon':
+            enableAmznTooltips();
             break;
         default:
             console.log('not a site with AI')

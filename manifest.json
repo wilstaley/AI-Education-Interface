@@ -18,6 +18,7 @@
                 "./libraries/popper.min.js",
                 "./libraries/index.all.min.js",
                 "./src/fb.js",
+                "./src/amzn.js",
                 "./src/content.js"
             ]
         }

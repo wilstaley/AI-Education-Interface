@@ -1,4 +1,14 @@
 function enableFbTooltips(){
+    const images = [...document.getElementsByTagName('img')];
+    
+    images.forEach(el => {
+        const altText = el.alt;
+        const isCVTag = altText.startsWith("Image may contain: ");
+        if (isCVTag) {
+            console.log(el)
+        }
+    });
+    
     tippy('#pagelet_marketplace_recently_viewed_rhc', {
         content: getTooltipContent(
             'Targeted Ads', 
