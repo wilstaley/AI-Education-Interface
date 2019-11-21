@@ -19,6 +19,7 @@
                 "./libraries/index.all.min.js",
                 "./src/fb.js",
                 "./src/amzn.js",
+                "./src/ta.js",
                 "./src/content.js"
             ]
         }

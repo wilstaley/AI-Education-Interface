@@ -31,6 +31,9 @@ function enableTooltips(){
         case 'amazon':
             enableAmznTooltips();
             break;
+        case 'tripadvisor':
+            enableTaTooltips();
+            break;
         default:
             console.log('not a site with AI')
             break;
