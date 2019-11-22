@@ -54,7 +54,7 @@ function enableFbTooltips(){
             'Facebook', 
             'machine learning', 
             'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook',
-            'open-radio-17'
+            'open-radio-2'
         ),
         placement: 'left',
         arrow: true,
@@ -69,7 +69,8 @@ function enableFbTooltips(){
             'Targeted Ads',
             'Facebook',
             'machine learning',
-            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook'
+            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook',
+            'open-radio-2'
         ),
         placement: 'left',
         arrow: true,
@@ -85,7 +86,8 @@ function enableFbTooltips(){
             'Text in Posts',
             'Facebook',
             'deep learning',
-            'analyze the context of the language in order to prompt you to Facebook tools, monitor hate speech, and detect suicidal intent'
+            'analyze the context of the language in order to prompt you to Facebook tools, monitor hate speech, and detect suicidal intent',
+            'open-radio-1'
         ),
         placement: 'top',
         arrow: true,
@@ -101,7 +103,8 @@ function enableFbTooltips(){
             'Comments',
             'Facebook',
             'deep learning',
-            'understand how people are using slang in order to match you with advertisers, rid prohibited content, rank search results and identify trending topics'
+            'understand how people are using slang in order to match you with advertisers, rid prohibited content, rank search results and identify trending topics',
+            'open-radio-5'
         ),
         placement: 'bottom',
         arrow: true,

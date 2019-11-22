@@ -4,7 +4,8 @@ function enableAmznTooltips(){
             'Search', 
             'Amazon', 
             'machine learning algorithms', 
-            'recognize patterns from your search history and provide more relevant product suggestions'
+            'recognize patterns from your search history and provide more relevant product suggestions',
+            'open-radio-8'
         ),
         placement: 'bottom',
         arrow: true,
@@ -19,7 +20,8 @@ function enableAmznTooltips(){
             'Recommendations', 
             'Amazon', 
             'neural networks', 
-            'generate personalized product recommendations'
+            'generate personalized product recommendations',
+            'open-radio-7'
         ),
         placement: 'top',
         arrow: true,
@@ -34,7 +36,8 @@ function enableAmznTooltips(){
             'Recommendations', 
             'Amazon', 
             'neural networks', 
-            'generate personalized product recommendations'
+            'generate personalized product recommendations',
+            'open-radio-7'
         ),
         placement: 'top',
         arrow: true,
@@ -49,7 +52,8 @@ function enableAmznTooltips(){
             'Recommendations', 
             'Amazon', 
             'neural networks', 
-            'generate personalized product recommendations'
+            'generate personalized product recommendations',
+            'open-radio-7'
         ),
         placement: 'top',
         arrow: true,
