@@ -53,7 +53,8 @@ function enableFbTooltips(){
             'Targeted Ads', 
             'Facebook', 
             'machine learning', 
-            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook'
+            'predict how susceptible you will be to an ad’s message using profile demographics, Facebook activity, and activity on websites off of Facebook',
+            'open-radio-17'
         ),
         placement: 'left',
         arrow: true,

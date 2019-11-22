@@ -2,7 +2,7 @@ console.log('content script running 🏃‍');
 
 const logoURL = chrome.extension.getURL('public/images/logo.png').toString();
 
-function getTooltipContent(header, site, aitype, reason) {
+function getTooltipContent(header, site, aitype, reason, goto='') {
     const tooltipHTML = `
         <link href="https://fonts.googleapis.com/css?family=Barlow|Jura:700&display=swap" rel="stylesheet">
         <div id='aiedu-ttwrapper'>
@@ -13,7 +13,7 @@ function getTooltipContent(header, site, aitype, reason) {
                 <p>
                     ${site} is likely using ${aitype} to ${reason}.
                 </p>
-                <a href="http://wilstaley.com/AI-Education-Website" id="btn" target="_blank">learn more!</a>
+                <a href="http://wilstaley.com/AI-Education-Website#${goto}" id="btn" target="_blank">learn more!</a>
             </div>
         </div>
     `;
