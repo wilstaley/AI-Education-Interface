@@ -3,11 +3,6 @@
     "version": "0.1",
     "description": "Educate people about AI online!",
     "manifest_version": 2,
-    "icons": {
-        "16": "./publc/images/icon16.png",
-        "48": "./public/images/icon48.png",
-        "128": "./public/images/icon128.png"
-    },
     "permissions": [
         "storage",
         "tabs",
@@ -39,5 +34,10 @@
     },
     "web_accessible_resources": [
         "public/images/*"
-    ]
-  }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
