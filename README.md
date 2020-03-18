@@ -8,7 +8,7 @@ According to [this article](https://foundation.mozilla.org/en/blog/we-asked-peop
 
 ### Installation
 Option 1: From the Chrome Web Store
-1. The extension is not currently published to the web store, but we will post instructions once it becomes available
+1. [Install Here](https://chrome.google.com/webstore/detail/ai-education/clkhgcefglnjfiopkbelgkglccdhebmd)
 
 Option 2: From Source
 1. Clone this repo so you have a copy in a folder locally.
